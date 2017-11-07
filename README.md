@@ -29,3 +29,12 @@ study git
 
 ## 删除分支
  >$ git branch -d 分子名字
+
+## 解决冲突
+ >如果对两个有冲突的分支执行--分支的合并--操作 <br/>
+ >会看到：CONFLICT (content): Merge conflict in readme.txt 。(readme.txt 文件冲突了)<br/>
+ >怎么办呢？<br/>
+ > <font color="#A52A2A">Git用<<<<<<<，=======，>>>>>>>标记出不同分支的内容</font><br/>
+ > 1、在冲突文件中修改git 标记出来的冲突部分。<br/>
+ > 2、执行$ git add readme.txt , $ git commit -m 'xxx'
+
