@@ -14,4 +14,12 @@ study git
 
 ## *【撤销已经git add到暂存区的修改】
  >先：$ git reset HEAD 1.html <br/>
- >再：$ git checkout -- 1.html 
+ >再：$ git checkout -- 1.html
+
+## 查看当前的分支
+ >$ git branch
+
+## 创建分支并切换到分支上
+ >$ git checkout -b dev
+ >(相当于：$ git branch dev(创建分支) + $ git checkout dev(切换到分支))
+
