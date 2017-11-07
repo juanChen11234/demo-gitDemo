@@ -23,3 +23,7 @@ study git
  >$ git checkout -b dev <br/>
  >(相当于：$ git branch dev(创建分支) + $ git checkout dev(切换到分支))
 
+## 合并子分支到master
+ >先：切换到master分支
+ >再：$ git merge 子分支名字
+
